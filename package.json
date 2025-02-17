@@ -1,0 +1,24 @@
+{
+  "name": "ppi-vendas-de-pacotes-de-viagem",
+  "version": "1.0.0",
+  "description": "Vendas de Pacotes de Viagem",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyRossi6389/PPI-Vendas-de-Pacotes-de-Viagem.git"
+  },
+  "author": "Victor Rossi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zyRossi6389/PPI-Vendas-de-Pacotes-de-Viagem/issues"
+  },
+  "homepage": "https://github.com/zyRossi6389/PPI-Vendas-de-Pacotes-de-Viagem#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

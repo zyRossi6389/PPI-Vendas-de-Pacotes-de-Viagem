@@ -1,0 +1,11 @@
+O nome da "empresa" é um nome totalmente fictício, não existente, gerado apenas para complementar a atividade! 
+
+Deixei o conteúdo todo do código em inglês para estudo (melhorar meu inglês) e para melhor estilização do VsCode, com as pastas mais bonitas e os arquivos mais faceis de encontrar!
+Já o conteúdo do Site deixei em português, afinal somos BR rs
+
+Ainda sou muito inexperiênte, acredito que a organização das pastas estejam de forma que poderiam estar melhores, mas com o conhecimento que tenho hoje consegui fazer forma!
+
+
+Usuário: UnoesteAtividade
+Login: 123456789
+
