@@ -1,12 +1,144 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/login.css">
-    <title>Travel UX - Pacotes de Viagem</title>
-</head>
-<body>
-    Bem vindo ao TravelUX 
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/home.css" />
+    <title>TravelUX | Pacotes de Viagens em Promoção</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">TravelUX</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <div class="nav__btns">
+        <a href="login.html" class="btn">LOGIN</a>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="header__container">
+        <div class="header__content">
+          <p>ELEVE SUA JORNADA DE VIAGEM</p>
+          <h1>Experiência única com TravelUX</h1>
+          <div class="header__btns">
+          </div>
+        </div>
+        <div class="header__image">
+          <img src="images/header.png" alt="header" />
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container destination__container" id="about">
+      <h2 class="section__header">Pacotes Populares</h2>
+      <p class="section__description">
+        Descubra nossos melhores pacotes de viagem em um só lugar! 
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <a href="pacote1.html" class="pacote1"><img src="images/destination-1.jpg" alt="destination"/></a>
+          <div class="destination__card__details">
+            <div>
+              <h4>Alter do Chão (Pará)</h4>
+              <p>19/02/205  ➔  25/02/2025</p>
+            </div>
+            <div class="destination__rating">
+              R$ 4.799,00
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <a href="pacote2.html"><img src="images/destination-2.jpg" alt="destination" /></a>
+          <div class="destination__card__details">
+            <div>
+              <h4>Jardim Botânico (Curitiba)</h4>
+              <p>04/03/2025  ➔  10/03/2025</p>
+            </div>
+            <div class="destination__rating">
+              R$ 2.499,00
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <a href="pacote3.html"><img src="images/destination-3.jpg" alt="destination" /></a>
+          <div class="destination__card__details">
+            <div>
+              <h4>Cataratas do Iguaçu</h4>
+              <p>12/04/2025  ➔  18/04/2025</p>
+            </div>
+            <div class="destination__rating">
+              R$ 5.789,00
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container journey__container" id="tour">
+      <h2 class="section__header">Por que escolher a TravelUX?</h2>
+      <p class="section__description">
+        Viaje com mais conforto, segurança e praticidade!!
+      </p>
+      <div class="journey__grid">
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Viagem de Excelência</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Reservas Simples, Clique e vá</h4>
+            <p>
+              Com voos e acomodações reservado e dedicado a você,
+              tudo de que você precisa disponível e personalizado, para fazer
+              sua viagem dos sonhos!
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Seu Guia Pessoal</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Planos customizados pra você</h4>
+            <p>
+              Aproveite sua viagem personalizada com planos de sua preferência e 
+              interesses. Enbarque nessa aventura cultural e desfrute do melhor que essa
+              jornada pode lhe oferecer!
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-map-2-line"></i></span>
+            <h4>Melhores Lugares em alta</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-map-2-line"></i></span>
+            <h4>Recomendaçõs e Planos</h4>
+            <p>
+              E claro, boa parte da sua experiência tem que ser apenas sua, já comentamos demais,
+              agora é hora de você dar o primeiro passo! 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
